@@ -1,6 +1,6 @@
 package buko.restaurant.concreteEntities;
 
-import buko.restaurant.abstracts.BaseEntity;
+import buko.restaurant.abstractEntities.BaseEntity;
 
 import java.util.ArrayList;
 import java.util.List;

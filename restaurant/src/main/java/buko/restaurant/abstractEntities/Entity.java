@@ -1,4 +1,4 @@
-package buko.restaurant.abstracts;
+package buko.restaurant.abstractEntities;
 
 public abstract class Entity<T> {
     private String name;
