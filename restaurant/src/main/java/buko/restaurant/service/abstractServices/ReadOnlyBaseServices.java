@@ -1,6 +1,6 @@
-package buko.restaurant.abstractServices;
+package buko.restaurant.service.abstractServices;
 
-import buko.restaurant.repositoryInterfaces.Repository;
+import buko.restaurant.repository.repositoryInterfaces.Repository;
 
 public abstract class ReadOnlyBaseServices<TE, T> {
     private final Repository<TE, T> repository;

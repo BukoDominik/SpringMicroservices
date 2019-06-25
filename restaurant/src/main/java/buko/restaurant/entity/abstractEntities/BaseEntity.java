@@ -1,4 +1,4 @@
-package buko.restaurant.abstractEntities;
+package buko.restaurant.entity.abstractEntities;
 
 public abstract class BaseEntity<T> extends Entity {
 

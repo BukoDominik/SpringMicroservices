@@ -1,8 +1,8 @@
-package buko.restaurant.concreteRepositories;
+package buko.restaurant.repository.concreteRepositories;
 
-import buko.restaurant.abstractEntities.Entity;
-import buko.restaurant.concreteEntities.Restaurant;
-import buko.restaurant.repositoryInterfaces.RestaurantRepository;
+import buko.restaurant.entity.abstractEntities.Entity;
+import buko.restaurant.entity.concreteEntities.Restaurant;
+import buko.restaurant.repository.repositoryInterfaces.RestaurantRepository;
 
 import java.util.Collection;
 import java.util.HashMap;

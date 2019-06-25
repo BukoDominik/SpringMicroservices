@@ -1,6 +1,6 @@
-package buko.restaurant.concreteEntities;
+package buko.restaurant.entity.concreteEntities;
 
-import buko.restaurant.abstractEntities.BaseEntity;
+import buko.restaurant.entity.abstractEntities.BaseEntity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +30,11 @@ public class Restaurant extends BaseEntity<String> {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return new StringBuilder("{id: ").append(id).append(", name: ")
+                .append(name).append(", tables: ").append(tables).append("}").toString();
     }
 }

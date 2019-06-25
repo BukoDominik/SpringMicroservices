@@ -1,4 +1,4 @@
-package buko.restaurant.repositoryInterfaces;
+package buko.restaurant.repository.repositoryInterfaces;
 
 public interface RestaurantRepository<Restaurant, String> extends Repository<Restaurant, String> {
 

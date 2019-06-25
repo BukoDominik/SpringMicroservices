@@ -1,6 +1,6 @@
-package buko.restaurant.repositoryInterfaces;
+package buko.restaurant.repository.repositoryInterfaces;
 
-import buko.restaurant.abstractEntities.Entity;
+import buko.restaurant.entity.abstractEntities.Entity;
 
 import java.util.Collection;
 

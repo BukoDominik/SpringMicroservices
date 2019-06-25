@@ -35,7 +35,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>eureka-service</module>
         <module>restaurant</module>
         <module>user</module>
         <module>booking</module>

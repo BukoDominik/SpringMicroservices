@@ -1,6 +1,6 @@
-package buko.restaurant.concreteEntities;
+package buko.restaurant.entity.concreteEntities;
 
-import buko.restaurant.abstractEntities.BaseEntity;
+import buko.restaurant.entity.abstractEntities.BaseEntity;
 
 import java.math.BigInteger;
 

@@ -1,8 +1,8 @@
-package buko.restaurant.abstractEntities;
+package buko.restaurant.entity.abstractEntities;
 
 public abstract class Entity<T> {
-    private String name;
-    private T id;
+    protected String name;
+    protected T id;
 
     public Entity(String name, T id) {
         this.name = name;
